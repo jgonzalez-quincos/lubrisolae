@@ -10,30 +10,30 @@ function App() {
 
   return (
     <>
-    <div class="d-flex justify-content-around grid text-center col-12 p-3 mb-2 bg-transparent text-body">
-      
-    </div>
-      <div class="d-flex justify-content-around grid text-center col-12 p-3 mb-2 bg-success text-white">
+      <div class="d-flex justify-content-around grid text-center text-bg-dark p-3 rounded-top-5 mb-2 col-12">
+        <img src="src/assets/web-grande.png" class="img-fluid" width="300px" height="180px"></img>
+      </div>
+      <div class="d-flex justify-content-around grid text-bg-dark p-3 rounded-bottom-5 col-12">
         <div></div>
-        <div class="text-bg-dark p-3 rounded-3">
+        <div class="text-start p-3 mb-2 bg-success text-white rounded-3">
           <form>
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">
-                Email address goes here
+              <label for="exampleInputDocument" class="form-label fs-4">
+                Ingrese su documento
               </label>
               <input
-                type="email"
+                type="documet"
                 class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
+                id="exampleInputDocument"
+                aria-describedby="docHelp"
               ></input>
               <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else pls
+                no use ningun character especial, solo numero.
               </div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">
-                Password
+              <label for="exampleInputPassword1" class="form-label fs-4">
+                Contraseña
               </label>
               <input
                 type="password"
@@ -41,18 +41,8 @@ function App() {
                 id="exampleInputPassword1"
               ></input>
             </div>
-            <div class="mb-3 form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              ></input>
-              <label class="form-check-label" for="exampleCheck1">
-                Check me out
-              </label>
-            </div>
-            <button type="submit" class="btn btn-primary">
-              Submit
+            <button type="submit" class="btn btn-primary fs-4">
+              Entrar
             </button>
           </form>
         </div>
