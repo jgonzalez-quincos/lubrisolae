@@ -29,6 +29,7 @@ function App() {
               ></input>
               <div id="emailHelp" class="form-text">
                 We'll never share your email with anyone else pls
+                We'll never share your email with anyone else
               </div>
             </div>
             <div class="mb-3">
